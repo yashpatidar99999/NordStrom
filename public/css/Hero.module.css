@@ -1,0 +1,52 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* category of women men and kids clotsh */
+.category{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    color: gray;
+}
+.category li{
+    border-bottom: 2px solid transparent;
+}
+.category li:first-child,.category li:last-child{
+    color: rgb(0, 34, 255);
+}
+.category li:nth-child(2){
+    color: crimson;
+}
+.category li:hover{
+    border-color: black;
+}
+.category li:first-child:hover,.category li:last-child:hover{
+    border-color: rgb(0, 34, 255);
+}
+.category li:nth-child(2):hover{
+    border-color: crimson;
+}
+/* account button */
+.acc{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    flex-direction: column;
+    margin-top: 2.2rem;
+}
+.acc_btn{
+    padding: 0.6rem 2rem;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid blue ;
+    font-size: 1rem;
+}
+.acc h1{
+    font-size: 2rem;
+    
+}
